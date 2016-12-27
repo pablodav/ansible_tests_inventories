@@ -1,0 +1,4 @@
+- name: burp2 servers
+  hosts: burp2_servers
+  roles: 
+    - ansible_burp2_server

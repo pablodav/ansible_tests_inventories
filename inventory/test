@@ -1,0 +1,4 @@
+ubuntuburp2   ansible_host=192.168.122.201
+
+[burp2_servers]
+ubuntuburp2
