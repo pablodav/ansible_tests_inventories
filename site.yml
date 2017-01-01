@@ -1,4 +1,6 @@
 - name: burp2 servers
+  become: yes
+  become_method: sudo
   hosts: burp2_servers
   roles: 
     - ansible_burp2_server
