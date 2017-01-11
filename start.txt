@@ -1,0 +1,3 @@
+Normal run: 
+
+ansible-playbook -i inventory site.yml --become --vault-password-file=~/.ansible_vault 

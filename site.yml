@@ -4,3 +4,6 @@
   hosts: burp2_servers
   roles: 
     - ansible_burp2_server
+
+- name: include burpui role
+  include: burpui.yml

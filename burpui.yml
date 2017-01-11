@@ -1,0 +1,7 @@
+
+- name: burpui servers
+  become: yes
+  become_method: sudo
+  hosts: burpui_servers
+  roles: 
+    - ansible_burpui_server

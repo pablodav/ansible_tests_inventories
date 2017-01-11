@@ -1,6 +1,10 @@
 ubuntuburp2   ansible_host=192.168.122.201
+ubuntuburpui  ansible_host=192.168.122.202
 localhost     #ansible_connection=local 
 
 [burp2_servers]
 ubuntuburp2
 localhost
+
+[burpui_servers]
+ubuntuburpui
