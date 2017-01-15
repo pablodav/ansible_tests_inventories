@@ -1,4 +1,4 @@
 # bui-agent
 burpui_standalone: false
 burpui_agents:
-  - { name: "host2", address: "192.168.122.201", port: "10000", password: "password", ssl: "false" }
+  - { name: "host2", address: "192.168.122.201", port: "5001", password: "password", ssl: "false" }
